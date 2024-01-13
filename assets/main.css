@@ -329,3 +329,69 @@ section h2 {
 /*.slick-slider {*/
 /*  touch-action: auto !important;*/
 /*}*/
+
+/* 07.2.7 IMAGE & VIDEO DIVIDER					 */
+/* ----------------------------------------------*/
+.divider-wrapper {
+  padding: 130px 0;
+}
+
+div {
+  word-break: keep-all;
+}
+
+.image-divider {
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-attachment: scroll;
+  background-position: 75% 50%;
+  background-repeat: no-repeat;
+  color: #FFF;
+  -webkit-backface-visibility: hidden;
+}
+
+.image-divider.mobile {
+  background-attachment: scroll;
+}
+
+.video-divider {
+  position: relative;
+  color: #FFF;
+  z-index: 3;
+}
+
+.image-divider h1, .image-divider h2,
+.image-divider h3, .image-divider h4,
+.image-divider h5, .image-divider h6,
+.video-divider h1, .video-divider h2,
+.video-divider h3, .video-divider h4,
+.video-divider h5, .video-divider h6 {
+  color: #FFF;
+}
+
+
+.image-divider .divider-overlay,
+.video-divider .divider-overlay {
+  position: absolute;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.3
+}
+
+.image-divider.auto-height,
+.video-divider.auto-height {
+  height: 100%;
+  width: 100%;
+  padding: 150px 0;
+}
+
+.image-divider.fixed-height,
+.video-divider.fixed-height {
+  height: 700px;
+  width: 100%;
+  padding: 0;
+}
