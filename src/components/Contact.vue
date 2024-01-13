@@ -1,6 +1,6 @@
 <template>
   <section id="contact">
-    <div class="image-divider auto-height" :style="{ backgroundImage: 'url(./src/assets/images/footer.jpg)', paddingBottom: '100px', paddingTop: '100px' }">
+    <div class="image-divider auto-height" :style="{ backgroundImage: 'url(assets/images/footer.webp)', paddingBottom: '100px', paddingTop: '100px' }">
       <div class="divider-overlay"></div>
       <div class="container">
         <div class="row">
