@@ -134,7 +134,7 @@ section h2 {
   background-position: center;
 }
 
-#call .banner p {
+call .banner p {
   text-align: center;
   padding: 30px 0;
 }
@@ -394,4 +394,58 @@ div {
   height: 700px;
   width: 100%;
   padding: 0;
+}
+
+/* 07.2.11 Banner Text				 			 */
+/* ----------------------------------------------*/
+.banner-text {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.banner-text.small {
+  padding: 2px 30px;
+}
+
+.banner-text.medium {
+  padding: 2px 50px;
+}
+
+.banner-text.large {
+  padding: 2px 70px;
+}
+
+.banner-text.full {
+  width: 100%;
+}
+
+.banner-text.light {
+  color: #FFF;
+}
+
+.banner-text.light * {
+  color: #FFF;
+}
+
+.banner-text.dark {
+  color: #6a6a6a;
+}
+
+.banner-text.dark * {
+  color: #333333;
+}
+
+.banner-text.withlove {
+  position: relative;
+  font-family: MapoFlowerIsland, sans-serif;
+  margin: 30px auto;
+  text-align: center
+}
+
+.banner-text.withlove.dark:before {
+  color: #e1dddd;
+}
+
+.animation {
+  visibility: hidden;
 }
