@@ -8,15 +8,15 @@
     <ul class="phone">
       <li>
         <a :href="'tel:' + groomPhoneNumber">
-          <img src="/assets/images/malePhoneIcon.png" alt="신랑에게 전화하기">
+          <img src="@/assets/images/malePhoneIcon.png" alt="신랑에게 전화하기">
         </a>
-        <p>신랑에게 전화하기</p>
+        <p style="margin-top: 0px">신랑에게 전화하기</p>
       </li>
       <li>
         <a :href="'tel:' + bridePhoneNumber">
-          <img src="/assets/images/femalePhoneIcon.png" alt="신부에게 전화하기">
+          <img src="@/assets/images/femalePhoneIcon.png" alt="신부에게 전화하기">
         </a>
-        <p>신부에게 전화하기</p>
+        <p style="margin-top: 0px">신부에게 전화하기</p>
       </li>
     </ul>
   </section>
@@ -35,5 +35,10 @@ export default {
 </script>
 
 <style scoped>
-/* Add component-specific styles here with scoped attribute */
+.banner p{
+  font-family: BookkMyungjo-Bd7, sans-serif !important;
+}
+.phone p{
+  font-family: BookkMyungjo-Bd7, sans-serif !important;
+}
 </style>

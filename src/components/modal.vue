@@ -34,7 +34,6 @@ export default {
         spaceBetween : 20,
         loop:true,
         centeredSlides: true,    //센터모드
-        autoHeight: true,
         initialSlide: this.indexProp,
       },
       photos: [

@@ -30,5 +30,10 @@ export default {
 </script>
 
 <style scoped>
-/* Add component-specific styles here with scoped attribute */
+.container h2{
+  font-family: BookkMyungjo-Bd7, sans-serif !important;
+}
+.container {
+  font-family: MapoFlowerIsland, sans-serif !important;
+}
 </style>

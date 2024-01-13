@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "swiper": "^11.0.5",
-    "vue": "^3.3.11",
+    "vue": "^3.4.13",
+    "vue-naver-maps": "^0.15.0",
     "vue-router": "^4.2.5",
-    "vue-slick-carousel": "^1.0.6"
+    "vue-slick-carousel": "^1.0.6",
+    "vue3-naver-maps": "^4.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",

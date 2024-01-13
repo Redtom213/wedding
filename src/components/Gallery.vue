@@ -86,4 +86,7 @@ export default {
 </script>
 
 <style>
+.container h2 {
+  font-family: BookkMyungjo-Bd7, sans-serif !important;
+}
 </style>
