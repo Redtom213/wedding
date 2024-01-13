@@ -1,6 +1,6 @@
 <template>
   <section id="title">
-    <img src="@/assets/images/title.jpg" alt="title">
+    <img src="../assets/images/title.webp" alt="title">
     <div class="introText">
       <div class="container" style="margin-right: 5px;">
         <h2>김태병<br> 강희종</h2>
