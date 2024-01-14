@@ -21,17 +21,11 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide } from 'swiper/vue';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 import Modal from "@/components/modal.vue";
 
 export default {
   components: {
     Modal,
-    Swiper,
-    SwiperSlide,
   },
 
   data() {
@@ -78,6 +72,7 @@ export default {
       this.body.style.removeProperty('top');
       this.body.style.removeProperty('left');
       this.body.style.removeProperty('right');
+      document.body.style.zoom = 1.0;
       window.scrollTo(0, this.scrollPosition);
       this.modalOpen = false;
     },
