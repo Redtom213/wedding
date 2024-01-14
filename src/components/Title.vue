@@ -1,6 +1,11 @@
 <template>
   <section id="title">
-    <img src="../assets/images/title.webp" alt="title">
+    <img
+        src="@/assets/images/openTitle.webp"
+        alt="title"
+        srcset="@/assets/images/openTitle-300.webp 300w,@/assets/images/openTitle-930.webp 930w,@/assets/images/openTitle-1290.webp 1290w,@/assets/images/openTitle-1560.webp 1560w,@/assets/images/openTitle-1790.webp 1790w,@/assets/images/openTitle-2000.webp 2000w"
+        sizes="100vw"
+    >
     <div class="introText">
       <div class="container" style="margin-right: 5px;">
         <h2>김태병<br> 강희종</h2>
@@ -11,16 +16,13 @@
 </template>
 
 <script>
-export default {
-  // 컴포넌트 옵션 (필요에 따라 추가)
-}
 </script>
 
 <style scoped>
 .introText h2{
   font-family: BookkMyungjo-Bd7, sans-serif !important;
 }
-.introText {
+.introText p{
   font-family: MapoFlowerIsland, sans-serif !important;
 }
 </style>

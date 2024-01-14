@@ -6,7 +6,7 @@
     >
       <swiper-slide class="swiper-slide"
                     v-for="(photo, index) in photos" :key="index">
-        <img :src="photo.src" :alt="photo.alt">
+        <img :src="photo.src" :alt="photo.alt" :srcset="photo.srcset">
       </swiper-slide>
     </swiper>
   </div>
