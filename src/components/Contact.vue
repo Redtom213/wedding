@@ -44,22 +44,22 @@
 export default {
   data() {
     return {
-      groomAccount: '신한 110-483-346116 김태병',
-      groomMainAccount: '우리 144-070929-77 김주명(혼주)',
-      brideAccount: '기업 932-049578-01-018 강희종',
-      brideMainAccount: '국민 640002-95-103613 강용구(혼주)'
+      groomAccount: '  김태병',
+      groomMainAccount: '  김주명(혼주)',
+      brideAccount: ' 강희종',
+      brideMainAccount: ' 강용구(혼주)'
     };
   },
   methods: {
     copyToClipboard(text) {
       if (text === 1) {
-        text = '신한은행 110483346116';
+        text = '';
       } else if (text === 2) {
-        text = '우리은행 14407092977';
+        text = '';
       } else if (text === 3) {
-        text = '기업은행 93204957801018';
+        text = '';
       } else if (text === 4) {
-        text = '국민은행 64000295103613';
+        text = '';
       }
       navigator.clipboard.writeText(text).then(() => {
         alert(text + '\n' + '복사되었습니다.');
